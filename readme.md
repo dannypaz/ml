@@ -1,12 +1,16 @@
-in order to use virtualenv in python 3.6.... and since you have conda... us this command for environment
+# Getting started
 
-Training data is what we'll use to train our algo
-Testing data is what we will use to verify that it is correct? Or testing data is data we need to use on the algorithm?
+Install Anaconda w/ Brew
 
 ```
-# Instead of virtualenv for py, python3 has its
-# own version built in.... but since we are using anaconda....
-# we can instead create an environment with conda
+brew cask install anaconda
+```
+
+Anaconda acts like virtualenv, and with the advent of Py3... there is technically
+'no more' virtualenv as it is baked into the language.
+
+```
+# create an environment with conda
 conda create -n env python=3.6
 
 # Install scikit
